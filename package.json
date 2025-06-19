@@ -1,7 +1,7 @@
 {
   "name": "whatsapp-voice-typing",
-  "displayName": "Whatsapp voice typing",
-  "version": "0.0.1",
+  "displayName": "Voice Typing for WhatsApp™",
+  "version": "1.0.0",
   "description": "A lightweight Chrome extension to dictate messages in WhatsApp™ Web using the browser's native speech recognition API.",
   "author": "forgeseer",
   "scripts": {
@@ -10,6 +10,8 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "@plasmohq/storage": "^1.15.0",
+    "lucide-react": "^0.518.0",
     "plasmo": "0.90.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -26,8 +28,12 @@
     "typescript": "5.3.3"
   },
   "manifest": {
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
     "host_permissions": [
-      "https://*/*"
+      "https://web.whatsapp.com/"
     ]
   }
 }

@@ -1,0 +1,1 @@
+export const WHATSAPP_INPUT_SELECTOR = 'p.selectable-text.copyable-text';
