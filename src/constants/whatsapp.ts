@@ -1,1 +1,1 @@
-export const WHATSAPP_INPUT_SELECTOR = 'p.selectable-text.copyable-text';
+export const WHATSAPP_VOICE_TYPING_FEEDBACK_LINK = 'https://docs.google.com/forms/d/e/1FAIpQLSf8qLKgTfUNfJVyifbK4E1acbMrC7IqyGt70jeE2bCB8Z7mfA/viewform?usp=dialog';
