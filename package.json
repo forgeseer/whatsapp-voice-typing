@@ -29,8 +29,7 @@
   },
   "manifest": {
     "permissions": [
-      "storage",
-      "activeTab"
+      "storage"
     ],
     "host_permissions": [
       "https://web.whatsapp.com/"
